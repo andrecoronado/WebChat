@@ -20,6 +20,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/andrecoronado/firstMERN.git
 git push -u origin master
 
+teste 
 ####### ----> 2. Iniciar o Servidor
 cd server
 npm init -y

@@ -76,6 +76,7 @@ function Login(props)  {
           <Row >
             <Col xs={12} sm={12} md={12} lg={12}>
               <div className="page-user">
+                  <img  src="WebChat-Logo.png" alt="WebChat"/>
                   <h3>{ props.login.headerName }</h3>
                   <form className="form">
                     <input type="text" placeholder="username" onChange={handleChange} onBlur={handleBlur}  name="username" value={props.login.username} />

@@ -19,8 +19,8 @@ function Chat(props)  {
           return msg.reverse();
         })
       }     
-    }    
-  
+    } 
+     
     return (
       <section className = "chat">
         <Header 

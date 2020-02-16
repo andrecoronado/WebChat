@@ -31,7 +31,7 @@ function Header(props) {
             <Col xs={6} className="menu" >
               <p>Hello, {props.name}.</p>
                <OverlayTrigger
-                  key={'bottom'}
+                  key={'bottomRefresh'}
                   placement={'bottom'}
                   overlay={<Tooltip id={`tooltip-bottom`}>Refresh</Tooltip>}
                 >
@@ -41,7 +41,7 @@ function Header(props) {
               </OverlayTrigger> 
 
                <OverlayTrigger
-                  key={'bottom'}
+                  key={'bottomLogoff'}
                   placement={'bottom'}
                   overlay={<Tooltip id={`tooltip-bottom`}>Logoff</Tooltip>}
                 >

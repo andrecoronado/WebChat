@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "keywords": [],
+  "scripts": {
+    "start": "nohup ./node_modules/.bin/env-cmd -f ./config/prod.env node index.js > output.log &",
+    "dev": "env-cmd ./config/dev.env nodemon index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -19,5 +23,8 @@
     "sharp": "^0.24.1",
     "socket.io": "^2.3.0",
     "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }

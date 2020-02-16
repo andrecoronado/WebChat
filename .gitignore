@@ -16,6 +16,7 @@ comandos.txt
 
 # production
 /client/build
+/server/config
 
 # misc
 .DS_Store

@@ -6,7 +6,7 @@
   "keywords": [],
   "scripts": {
     "start": "nohup ./node_modules/.bin/env-cmd -f ./config/prod.env node index.js > output.log &",
-    "dev": "env-cmd ./config/dev.env nodemon index.js"
+    "dev": "./node_modules/.bin/env-cmd ./config/dev.env nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,9 +19,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.5.3",
     "mongoose": "^5.9.1",
-    "multer": "^1.4.2",
-    "sharp": "^0.24.1",
-    "socket.io": "^2.3.0",
     "validator": "^12.2.0"
   },
   "devDependencies": {

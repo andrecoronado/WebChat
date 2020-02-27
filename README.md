@@ -4,4 +4,4 @@
 
 <a href="https://www.youtube.com/watch?v=J9WXVeIIHhg&feature=youtu.be
 " target="_blank"><img src="http://img.youtube.com/vi/J9WXVeIIHhg/0.jpg" 
-alt="WEB CHAT - DEMO" width="320" height="180" border="10" /></a>
+alt="WEB CHAT - DEMO" width="320" height="220" border="10" /></a>

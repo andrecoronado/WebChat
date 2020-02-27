@@ -1,3 +1,7 @@
 # WebChat
 
-This is as public web chat building with MERN
+### This is as public web chat building in a Single Page Application (SPA) with MERN (Mongo + Express + ReactJS + NodeJS)
+
+<a href="https://www.youtube.com/watch?v=J9WXVeIIHhg&feature=youtu.be
+" target="_blank"><img src="http://img.youtube.com/vi/J9WXVeIIHhg/0.jpg" 
+alt="WEB CHAT - DEMO" width="240" height="180" border="10" /></a>
